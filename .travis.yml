@@ -6,5 +6,5 @@ before_script:
  echo > hello.txt
 script:
 - ls hello.txt
-- ls index.heml
+- ls index.html
 
