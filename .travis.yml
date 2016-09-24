@@ -1,0 +1,10 @@
+Language: node_js
+node_js:
+ - '4'
+ - '6'
+before_script:
+ -touch hello.txt
+script:
+- ls hello.txt
+- ls index.heml
+
