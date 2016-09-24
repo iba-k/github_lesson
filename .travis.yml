@@ -3,7 +3,7 @@ node_js:
  - '4'
  - '6'
 before_script:
- echo > hello.txt
+ echo a > hello.txt
 script:
 - ls hello.txt
 - ls index.html
