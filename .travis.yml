@@ -3,7 +3,7 @@ node_js:
  - '4'
  - '6'
 before_script:
- -type -nul > hello.txt
+ echo > hello.txt
 script:
 - ls hello.txt
 - ls index.heml
